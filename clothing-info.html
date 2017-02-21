@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="keywords" content="lm">
+    <meta name="description" content="lm">
+    <title>纪录片协会-服装详情</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/jquery.bxslider.css">
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/lb.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+
+</head>
+<body>
+<!-- 头部 -->
+<header>
+    <div class="title-logon">
+        <div class="container " >
+            <div class="row">
+                <a class="left-log" href="index.html"><img src="imges/1.png" alt=""></a>
+                <div class="search-right">
+                    <p>
+                        <a class="qq"></a>
+                        <a class="wx"></a>
+                        <a class="wb"></a>
+                        <a class="bk"></a>
+                        <a class="kj"></a>
+                    </p>
+                    <div class="form-group">
+                        <div class="input-group search-group">
+                            <input class="form-control" type="email" placeholder="请输入关键字" style="border-radius: 0;">
+                            <div class="input-group-addon">搜索</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header">
+        <div class="container header-info">
+            <div class="row">
+                <div class="header-b">
+                    <div class="logo">
+                        <a href="index.html"><img src="imges/1.png" align="center" alt="logo" title="logo"></a>
+                    </div>
+
+                    <button id="navbar-btn" type="button" class="navbar-toggle offcanvas-toggle" data-toggle="offcanvas" data-target="#js-bootstrap-offcanvas">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>
+                    </button>
+                    <button class="search-btn">
+                        <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                </div>
+                <!--==============搜索=================-->
+                <div class="search">
+                    <div class="search-b">
+                        <div class="search-b-in">
+                            <form class="search-group" action="#">
+                                <div class="input-group">
+                                    <input type="text" placeholder="请输入关键字" class="form-control input-s" style="border-radius:0px;">
+                                    <span class="input-group-btn">
+							            <button type="button" class="btn" style="background: #979DA3;color: #FFFFFF;">搜索</button>
+							          </span>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- 头部结束 -->
+<!-- 导航栏 -->
+<nav class="navbar navbar-offcanvas navbar-offcanvas-right navbar-offcanvas-touch navbar-offcanvas-fade" role="navigation" id="js-bootstrap-offcanvas">
+    <div class="container">
+        <div class="row">
+            <div class="navbar-content">
+                <div class="navigation">
+                    <ul class="nav navbar-nav">
+                        <li class="current"><a href="index.html">首页</a></li>
+                        <li>
+                            <a href="investment.html">投资项目</a>
+                            <button class="sub-nav-btn">
+                                <i class="icon-plus"></i>
+                            </button>
+                            <div class="sub-nav sub-nav2">
+                                <dl>
+                                    <dd>
+                                        <span></span><a href="investment.html">投资项目1</a>
+                                    </dd>
+                                    <dd>
+                                        <span></span><a href="investment.html">投资项目2</a>
+                                    </dd>
+                                    <dd>
+                                        <span></span><a href="investment.html">投资项目3</a>
+                                    </dd>
+                                    <dd>
+                                        <span></span><a href="investment.html">投资项目4</a>
+                                    </dd>
+                                    <dd>
+                                        <span></span><a href="investment.html">投资项目5</a>
+                                    </dd>
+                                </dl>
+                                <div class="sub-nav-right">
+                                    <img src="img/nav-top.jpg">
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="flashAll.html">行业资讯</a>
+                            <button class="sub-nav-btn">
+                                <i class="icon-plus"></i>
+                            </button>
+                            <div class="sub-nav sub-nav2">
+                                <dl>
+                                    <dd>
+                                        <span></span><a href="flashAll.html">新闻快讯</a>
+                                    </dd>
+                                    <dd>
+                                        <span></span><a href=".html">纪录片行业动态</a>
+                                    </dd>
+                                    <dd>
+                                        <span></span><a href=".html">特别活动策划</a>
+                                    </dd>
+                                    <dd>
+                                        <span></span><a href=".html">本会动态</a>
+                                    </dd>
+                                </dl>
+                                <div class="sub-nav-right">
+                                    <img src="img/nav-top.jpg">
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="partner.html">合作伙伴</a>
+                            <button class="sub-nav-btn">
+                                <i class="icon-plus"></i>
+                            </button>
+                            <div class="sub-nav sub-nav2">
+                                <dl>
+                                    <dd>
+                                        <span></span><a href="partner.html">合作伙伴</a>
+                                    </dd>
+                                </dl>
+                                <div class="sub-nav-right">
+                                    <img src="img/nav-top.jpg">
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href=".html">产品中心</a>
+                            <button class="sub-nav-btn">
+                                <i class="icon-plus"></i>
+                            </button>
+                            <div class="sub-nav sub-nav2">
+                                <dl>
+                                    <dd>
+                                        <span></span><a href="clothing.html">服装</a>
+                                    </dd>
+                                    <dd>
+                                        <span></span><a href=".html">器材</a>
+                                    </dd>
+                                    <dd>
+                                        <span></span><a href=".html">素材</a>
+                                    </dd>
+                                </dl>
+                                <div class="sub-nav-right">
+                                    <img src="img/nav-top.jpg">
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="problem.html">下载中心</a>
+                            <button class="sub-nav-btn">
+                                <i class="icon-plus"></i>
+                            </button>
+                            <div class="sub-nav sub-nav2">
+                                <dl>
+                                    <dd>
+                                        <span></span><a href="problem.html">常见问题</a>
+                                    </dd>
+                                    <dd>
+                                        <span></span><a href="application.html">申请表</a>
+                                    </dd>
+                                    <dd>
+                                        <span></span><a href="register.html">登记表</a>
+                                    </dd>
+                                </dl>
+                                <div class="sub-nav-right">
+                                    <img src="img/nav-top.jpg">
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="introduce.html">关于本会</a>
+                            <button class="sub-nav-btn">
+                                <i class="icon-plus"></i>
+                            </button>
+                            <div class="sub-nav sub-nav2" style="left:0;">
+                                <dl>
+                                    <dd>
+                                        <span></span><a href="introduce.html">本会介绍</a>
+                                    </dd>
+                                    <dd>
+                                        <span></span><a href=".html">组织架构</a>
+                                    </dd>
+                                    <dd>
+                                        <span></span><a href="leader.html">本会领导</a>
+                                    </dd>
+                                    <dd>
+                                        <span></span><a href="meeting.html">会员大会</a>
+                                    </dd>
+                                    <dd>
+                                        <span></span><a href="member.html">本会会员</a>
+                                    </dd>
+                                    <dd>
+                                        <span></span><a href="contactUs.html">联系我们</a>
+                                    </dd>
+                                </dl>
+                                <div class="sub-nav-right">
+                                    <img src="img/nav-top.jpg">
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+<!-- 导航栏结束 -->
+<!-- 广告图 -->
+<div class="banner">
+    <ul>
+        <li class="responsive-image" data-media-tablet="imges/banner-1.png" data-media-desktop="imges/banner-1.png" background="imges/banner-1.png">
+        </li>
+        <li class="responsive-image" data-media-tablet="imges/banner-2.png" data-media-desktop="imges/banner-2.png" background="imges/banner-2.png">
+        </li>
+        <li class="responsive-image" data-media-tablet="imges/banner-3.png" data-media-desktop="imges/banner-3.png" background="imges/banner-3.png">
+        </li>
+    </ul>
+</div>
+<!-- 广告图结束 -->
+<!-- 主体 -->
+<div class="main bread-nav" >
+    <div class="container">
+        <div class="row" style="position:relative;">
+            <div class="nav-tab">
+                <p><span></span><a href="index.html">首页</a><em>&gt;</em><a href=".html">产品中心</a><em>&gt;</em><a href=".html">服装</a><em>&gt;</em><a href=".html" class="last-p">服装详情</a>
+                    <a href="#" class="last-a">服装详情</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="main zx-nav">
+    <div class="container">
+        <div class="row big-nav" style="position: relative;">
+            <p class="zx-title">产品中心</p>
+            <p class="tz-tab">
+                <a href="#" class="active">服装</a>|<a href="#">器材</a>|<a href="#">素材</a>
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="footer03-b1 small-nav">
+    <div class="container">
+        <div class="row">
+            <div class="footer-nav clearfix">
+                <dl>
+                    <dt>
+                        <a href=".html" class="small-title">产品中心</a>
+                        <i class="icon-plus" style="color: #333;"></i>
+                    </dt>
+                    <dd>
+                        <a href="#">服装</a>
+                        <a href="#">器材</a>
+                        <a href="#">素材</a>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="main">
+    <div class="container">
+        <div class="row">
+            <div class="main-all">
+                <div class="mian-left col-xs-12 col-sm-12">
+                    <div class="main-first-content">
+                        <div class="pro-detail">
+                            <div class="pro-detail-top">
+                                <li class="col-xs-12 col-sm-4">
+                                    <div class="news-b">
+                                        <div class="pro-info-b">
+                                            <div class="pro-img">
+                                                <ul class="clearfix my-wrapper">
+                                                    <li class="pro-img-list" data-title="1"><a href="javascript:;">
+                                                        <img src="imges/fzxq-2.png">
+                                                    </a></li>
+                                                    <li class="pro-img-list" data-title="2"><a href="javascript:;">
+                                                        <img src="imges/fzxq-2.png">
+                                                    </a></li>
+                                                    <li class="pro-img-list" data-title="3"><a href="javascript:;">
+                                                        <img src="imges/fzxq-2.png">
+                                                    </a></li>
+                                                    <li class="pro-img-list" data-title="4"><a href="javascript:;">
+                                                        <img src="imges/fzxq-2.png">
+                                                    </a></li>
+                                                    <li class="pro-img-list" data-title="5"><a href="javascript:;">
+                                                        <img src="imges/fzxq-2.png">
+                                                    </a></li>
+                                                    <li class="pro-img-list" data-title="6"><a href="javascript:;">
+                                                        <img src="imges/fzxq-2.png">
+                                                    </a></li>
+                                                    <li class="pro-img-list" data-title="7"><a href="javascript:;">
+                                                        <img src="imges/fzxq-2.png">
+                                                    </a></li>
+                                                    <li class="pro-img-list" data-title="8"><a href="javascript:;">
+                                                        <img src="imges/fzxq-2.png">
+                                                    </a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="col-xs-12 col-sm-8">
+                                    <div class="pro-detail-right">
+                                        <strong>风格汇美改良汉服古装女红色古代服装演出服</strong>
+                                        <div class="detail-right-b">
+                                            <p>服装品牌：汇美</p>
+                                            <p>产品型号：DC-PY6-2</p>
+                                            <p class="cp-color">产品颜色：<span>蓝色</span><span class="active">红色</span><span>黑色</span><span>紫色</span></p>
+                                            <p>产品说明：引领时尚潮流</p>
+                                            <p>风格汇美改良汉服古装女红色古代服装演出服写真唐装仙女齐胸襦裙。古装是指相对于现今的时装而言，一种时间性的服装概念，一般指具有中国古典气质和韵味的装扮。狭义上是指具有古代(民国以前)元素的服装，如汉服。现多用于拍摄武侠等影视作品，多数古装并非真正历史上存在的服装，是艺术化了的古代服饰，古装更偏向于时间性和艺术效果。古装一指古风的服装，多用于影楼等:二指古代的服装。</p>
+                                        </div>
+                                    </div>
+                                    <div class="clothing-fx">
+                                        分享到：
+                                        <div class="jiathis_style_24x24">
+                                            <a class="jiathis_button_qzone"></a>
+                                            <a class="jiathis_button_tsina"></a>
+                                            <a class="jiathis_button_tqq"></a>
+                                            <a class="jiathis_button_weixin"></a>
+                                            <a class="jiathis_button_renren"></a>
+                                            <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+                                            <a class="jiathis_counter_style"></a>
+                                            <!-- JiaThis Button BEGIN -->
+                                            <script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+                                            <!-- JiaThis Button END -->
+                                        </div>
+                                    </div>
+                                </li>
+                            </div>
+                            <div class="product-info-b">
+                                <div class="product-info-b-t">
+                                    <ul class="nav nav-tabs" role="tablist">
+                                        <li role="presentation" class="active"><a href="#tab01" aria-controls="tab01" role="tab" data-toggle="tab">方案详情<i class="glyphicon glyphicon-triangle-bottom"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="product-info-b-content tab-content">
+                                    <div role="tabpanel" class="tab-pane active" id="tab01">
+                                        <div class="tab-pane-img">
+                                            <img src="imges/fzxq-big.png">
+                                        </div>
+                                        <div class="product-p">
+                                            <p>古装摄影属于艺术摄影中的一部分，多是在影楼或摄影工作室拍摄的。</p>
+                                            <p>拍摄时，模特或消费者要换上具有古代（民国以前）元素的服装，装扮上相对而言复古的妆面和造型，通过角度、光线、表情、衣服、化妆、背景等等，充分发掘每一位被拍摄者的古典气质，从而达到复古的效果。</p>　
+                                            <p>在以往的婚纱摄影拍摄中，古装摄影占的比重并不大，更多只是作为主婚纱外的补充，这也是广大婚纱摄影消费者对此不太重视的原因之一。不过，就当前社会潮流的发展趋势来看，古装摄影已经越来越多为广大新人们所看好，进而成为众多主题婚照之选，这也使古装摄影逐渐成为一种新潮流。需要注意的是，古装摄影机构中提供的服装，仅仅是带有古代元素的服装，而并非真正历史上的服装。目前来说很多的影楼都有了自己的古装摄影，但是在全国来看，拍摄得好的并不是很多，目前来说，拍摄古装比较好的就只有帆摄影</p>　　
+                                            <p>折叠古代服饰</p>
+                                            <p>1、汉服 汉服是中国汉民族的民族服饰。其由来可追溯到三皇五帝时期一直到明代，连绵几千年，华夏人民（汉族）一直不改服饰的基本特征，这一时期汉民族所穿的服装，被称为汉服。自炎黄时代黄帝垂衣裳而天下治，汉服已具基本形式，历经周朝代的规范制式，到了汉朝已全面完善并普及，汉人汉服由此得名。</p>
+                                            <p> 随后各朝代的汉服虽有局部变动，但其主要特征不变，均是以交领右衽为基本特征。</p>
+                                            <p> 2、唐装 唐装（亦属于汉服）唐代的汉服，多特指对襟上衣、齐胸襦裙加上披帛的女子装束。男子装束则多为圆领袍衫。我们现在总说到的衣裳二字，其实衣是衣，裳是裳，衣是上身穿的，裳其实是指现代所说的裙子，衣与裳分开。这种妇女的服饰不是连衣，而是分两截的穿法一直延续到明末。上衣的穿法基本上是右衽交领或对襟系上带结，下面的裙子围起来系上长长的裙带，上衣或者掖里面或者自然的松散着，后来这种松散的上衣不断加长，一直覆到膝盖部，就后来发展成了宋代的褙子。</p>
+                                            <p>现代因APEC兴起的“唐装”是以清朝马褂为原型的时装，与汉服及唐朝没有任何关系。</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="backlist-p"><a href="#">返回列表 >></a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 主体结束 -->
+
+<div class="footer-link">
+    <div class="container">
+        <div class="row">
+            <p class="p-link">
+                <span>友情链接：</span>
+                <a href="">博纳影业</a>
+                <a href="">光线传媒</a>
+                <a href="">香港寰亚</a>
+                <a href="">英皇娱乐</a>
+                <a href="">安乐影片</a>
+                <a href="">银都机构</a>
+                <a href="">上影集团</a>
+                <a href="">中影CFGC</a>
+                <a href="">中央电视台CCTV</a>
+                <a href="">湖南卫视</a>
+                <a href="">浙江卫视</a>
+                <a href="">凤凰卫视</a>
+                <a href="">江苏卫视</a>
+                <a href="">东方卫视</a>
+                <!--<a href="">乐视影业</a>-->
+                <!--<a href="">银都机构</a>-->
+                <!--<a href="">上影集团</a>-->
+            </p>
+        </div>
+    </div>
+</div>
+<!-- 底部 -->
+<div class="footer03-b1">
+    <div class="container">
+        <div class="row">
+            <div class="footer-nav clearfix">
+                <dl>
+                    <dt>
+                        <a href="investment.html">投资项目</a>
+                        <i class="icon-plus"></i>
+                    </dt>
+                    <dd>
+                        <a href="investment.html">投资项目1</a>
+                        <a href="investment.html">投资项目2</a>
+                        <a href="investment.html">投资项目3</a>
+                        <a href="investment.html">投资项目4</a>
+                        <a href="investment.html">投资项目5</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <a href="flashAll.html">行业资讯</a>
+                        <i class="icon-plus"></i>
+                    </dt>
+                    <dd>
+                        <a href="flashAll.html">新闻快讯</a>
+                        <a href="#">纪录片行业动态</a>
+                        <a href="#">特别活动策划</a>
+                        <a href="#">本会动态</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <a href="partner.html">合作伙伴</a>
+                        <i class="icon-plus"></i>
+                    </dt>
+                    <dd>
+                        <a href="partner.html">合作伙伴</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <a href=".html">产品中心</a>
+                        <i class="icon-plus"></i>
+                    </dt>
+                    <dd>
+                        <a href="clothing.html">服装</a>
+                        <a href="#">器材</a>
+                        <a href="#">素材</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <a href="problem.html">下载中心</a>
+                        <i class="icon-plus"></i>
+                    </dt>
+                    <dd>
+                        <a href="problem.html">常见问题</a>
+                        <a href="application.html">申请表</a>
+                        <a href="register.html">登记表</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <a href="introduce.html">关于本会</a>
+                        <i class="icon-plus"></i>
+                    </dt>
+                    <dd>
+                        <a href="introduce.html">本会介绍</a>
+                        <a href="#">组织架构</a>
+                        <a href="leader.html">本会领导</a>
+                        <a href="meeting.html">会员大会</a>
+                        <a href="member.html">本会会员</a>
+                        <a href="contactUs.html">联系我们</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <p><img src="imges/2.png" alt=""></p>
+                    <p><img src="imges/3.png" alt=""></p>
+                </dl>
+            </div>
+
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="footer02">
+        <div class="container">
+            <div class="row">
+                <div class="footer-info-a">
+                    <div class="footer-info">
+                        <p>Copyright ©深圳市纪录片发展促进会 All Rights Reserved.<a href="#">粤ICP备14044426号 </a></p>
+                    </div>
+                    <div class="footer-a">
+                        <p><a href="#">法律声明</a>|<a href="#">网站地图</a>|<a href="#">关注我们</a>|<a href="#">在线留言</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- 底部结束 -->
+
+<!--********************在线客服********************-->
+<div class="side hidden-xs">
+    <ul>
+        <li class="imaga">
+            <a href="#" class="-mob-share-qq">
+                <img src="imges/6.png">
+            </a>
+        </li>
+        <li class="imaga">
+            <div class="image-code">
+                <img src="imges/code.png">
+            </div>
+            <a href="#">
+                <img src="imges/right-weixin.png">
+            </a>
+        </li>
+        <li class="imaga">
+            <a href="#" class="-mob-share-weibo">
+                <img src="imges/right-weibo.png">
+            </a>
+        </li>
+        <li class="imaga">
+            <a href="#" class="-mob-share-weibo">
+                <img src="imges/right-weibo1.png">
+            </a>
+        </li>
+        <li class="imaga">
+            <a href="#" class="-mob-share-kj">
+                <img src="imges/8.png">
+            </a>
+        </li>
+        <li style="border:none">
+            <a href="javascript:goTop()" class="sldetop">
+                <img src="imges/7.png">
+            </a>
+        </li>
+        <div class="clearfix"></div>
+    </ul>
+</div>
+
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.offcanvas.js"></script>
+<script type="text/javascript" src="js/jquery.hoverdelay.js"></script>
+<script src="js/jquery.bxslider.js"></script>
+<script src="js/jquery.lazyload.min.js"></script>
+<script src="js/common.js"></script>
+<script src="js/jquery.SuperSlide.2.1.1.js"></script>
+<script src="js/imagelightbox.min.js"></script>
+<script src="js/lightbox.js"></script>
+<script src="js/jquery.SuperSlide.2.1.1.js"></script>
+<script type="text/javascript" src="ckplayer/ckplayer.js" charset="utf-8"></script>
+<script type="text/javascript" src="js/jquery.slideVideo.js"></script>
+
+<!-- 本页私有js -->
+<script type="text/javascript">
+    $(function(){
+        var margin;
+        if(window.innerWidth>=1400){
+            margin=18;
+        }else if(window.innerWidth<=1200) {
+            margin=-11.5;
+        }else{
+            margin=5;
+        }
+        //alert(window.innerWidth);
+        var ww = window.innerWidth ? window.innerWidth : document.body.clientWidth;
+        $(".pro-img li").width($(".pro-img").width());
+        jQuery.changeImg(1000,margin);//图片展示，视频播放插件使用，参数1：自动轮播时间；参数2：左右外边距的和；
+        $(window).resize(function(){
+            $(".pro-img li").width($(".pro-img").width());
+        });
+
+        $('.cp-color span').on('click',function () {
+            $(this).addClass('active').siblings('.active').removeClass('active');
+        });
+    });
+
+    //窗口大小改变事件
+    $(window).resize(function(){
+        //页面自动刷新
+        window.location.reload();
+    });
+
+</script>
+</body>
+</html>

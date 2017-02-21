@@ -1,0 +1,19 @@
+.b_cont{width:385px;height:167px;overflow:hidden;position:relative;}
+.ct_p_05{width:385px;height:167px;float:left;text-align:center;}
+.ct_p_05 .ct_txt{display:block;line-height:50px;*line-height:50px;overflow:hidden;color:#fff;height:75px;cursor:pointer;filter: progid:DXImageTransform.Microsoft.gradient(GradientType = 0,startColorstr = '#8c000000', endColorstr = '#8c000000' );background-color:rgba(0,0,0,.55);_background:none;position: relative;margin-top: -75px;font-size: 20px;}
+.ct_p_05 a:hover .ct_txt{color:#fff;text-decoration: underline;}
+
+.scrDotList_wrap{text-align:right;width:100%;position:absolute;bottom:13px; right:13px; z-index:9999;}
+.scrDotList{padding:0 3px;zoom:1;line-height: 0;}
+.scrDotList span{display:inline-block;width:12px;height:12px;background:#aaacab; border-radius:6px;cursor:pointer;font-size:0;line-height:0;vertical-align:top;font-size: 0px;margin: 0 3px;}
+.scrDotList span.on{background:#ea1f3d;}
+
+a.scrArrAbsLeft{position:absolute;left:0;bottom:0px;width:75px;height:75px;background:url(../images/0813_ent_zyc_images_v2.png) 0px -136px no-repeat;cursor:pointer;}
+a.scrArrAbsLeft:hover{background-position: 0 -217px;}
+a.scrArrAbsRight{position:absolute;right:-1px;bottom:0px;width:75px;height:75px;background:url(../images/0813_ent_zyc_images_v2.png) no-repeat -83px -136px;cursor:pointer;}
+a.scrArrAbsRight:hover{background-position: -83px -217px;}
+/*.BMapLib_bubble_content{width:385px;height:167px;overflow:hidden;position:relative;}*/
+
+.BMapLib_bubble_content .tabCul{ position:absolute;bottom:45px;z-index:9999;left:0;right:0; text-align:center;}
+.BMapLib_bubble_content .tabCul a{width:10px;height:10px;background:url(../images/ico_10_10.png) no-repeat;display:inline-block;margin:0 2px;}
+.BMapLib_bubble_content .tabCul a:hover,.BMapLib_bubble_content .tabCul a.cur{background-position:-10px 0;}

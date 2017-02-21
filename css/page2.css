@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+
+
+
+
+.project_02 #allmap {height: 400px;width:100%;overflow: hidden;}
+
+.project_02 p.zt{font-size:14px;color:#fff;width:100%;height:38px;background:#e71e3f;float:left; text-align:center;line-height:38px;}
+
+.BMapLib_bubble_content img{float:left;}
+
+.BMapLib_sendToPhone{display:none;}
+
+.welfareTab{ margin-bottom:30px;}
+
+/*
+
+.welfareTab th #sleBG  { width:298px; height:44px;border:1px solid #e3e3e3ccc;border-radius:4px;background:url(../images/sel_bg.jpg) no-repeat 265px center;  display:block;margin-right:20px;}
+
+.welfareTab th #sleHid { display:block; width:280px;overflow:hidden; }*/     
+
+.welfareTab th select{ width:298px; height:44px; color:#9a9a9a; font-size:14px; margin-right:20px;background:none; border:none; }
+
+
+
+.dropdown {outline:none;z-index:9999;display:inline-block; *zoom:1; *display:inline;  position:relative;height:44px;
+
+	padding:0 !important;margin:0 !important;vertical-align:middle;background-color:#fff;}  
+
+.dropdown * {-moz-user-select:none;}  
+
+.dropselectbox{float:left; position:absolute;height:44px;font-size:14px; border:1px solid #e3e3e3; border-radius: 4px;width:289px;line-height:44px;font-size:14px;}   
+
+.overclass{ z-index:9900}   /* 对于IE下层定位问题的修正样式 */  
+
+.dropdown h4{position:relative;cursor:default; text-indent:5px;text-align:left;display:block;overflow:visible; 
+
+	margin:0; height:44px;font-size:14px;padding-left:0px;background:url(../images/sel_bg.jpg) no-repeat 265px center;float:left;color:#9A9A9A}  
+
+.dropdown h4.over{}  
+
+.dropdown h4.current{} 
+
+.dropdown div {display:none;position:absolute; left:0px; top:0px;padding:0;margin:0;}  
+
+.dropdown span {position:absolute;top:4px; right:3px;width:16px; height:14px;}  
+
+.dropdown ul{position:absolute;clear:both;display:none;border:1px solid #e3e3e3;color:#9A9A9A; overflow:auto; max-height:200px; width:289px !important;z-index:9999!important;top:44px!important; left:-1px;}  
+
+.dropdown ul li{text-indent:5px;height:30px;display:block;cursor:default;text-align:left;line-height:30px;font-size:14px;background:#FFFFFF;}  
+
+.dropdown ul li.over{background:#3875d7; color:#FFF;z-index:999;}  
+
+
+
+
+
+
+
+.bds_weixin{width:35px!important;height:35px!important;background:url(../images/icon_4.png) no-repeat!important; background-size:35px 35px!important;padding:0!important;}
+
+.bds_tsina{width:35px!important;height:35px!important;background:url(../images/icon_1.png) no-repeat!important; background-size:35px 35px!important;padding:0!important}
+
+.bds_sqq{width:35px!important;height:35px!important;background:url(../images/icon_3.png) no-repeat!important; background-size:35px 35px!important;padding:0!important}
+
+.bds_qzone{width:35px!important;height:35px!important;background:url(../images/icon_2.png) no-repeat!important; background-size:35px 35px!important;padding:0!important}
+
+.bds_weixin:hover{background:url(../images/icon_4_2.png) no-repeat!important;}
+
+.bds_tsina:hover{background:url(../images/icon_1_2.png) no-repeat!important;}
+
+.bds_sqq:hover{background:url(../images/icon_3_2.png) no-repeat!important; }
+
+.bds_qzone:hover{background:url(../images/icon_2_2.png) no-repeat!important;}
+
+.legal{padding-bottom:40px;}
+
+.legal p{font-size:14px;color:#999;line-height:2em;}
+
+.legal p a{color:#E41E41;}
